@@ -1,9 +1,0 @@
-n=int(input())
-hundreds=n//100
-tens=(n//10)%10
-units=n%10
-total=hundreds+tens+units
-print(hundreds)
-print(tens)
-print(units)
-print(total)
