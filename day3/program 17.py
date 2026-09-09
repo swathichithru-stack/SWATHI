@@ -1,0 +1,9 @@
+n=int(input())
+if(n%4==1):
+    print("north")
+elif(n%4==2):
+    print("east")
+elif(n%4==3):
+    print("south")
+else:
+    print("west")
